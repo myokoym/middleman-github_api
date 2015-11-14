@@ -46,6 +46,8 @@ source:
 <% end %>
 ```
 
+NOTICE: The current version (0.0.1) is only get today's commits.
+
 ## Example
 
 https://github.com/myokoym/middleman-github_api-example
