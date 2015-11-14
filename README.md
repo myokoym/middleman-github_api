@@ -46,7 +46,7 @@ source:
 <% end %>
 ```
 
-NOTICE: The current version (0.0.1) is only get today's commits.
+NOTICE: The current version (0.0.1) only gets today's commits.
 
 ## Example
 
