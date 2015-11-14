@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Masafumi Yokoyama"]
   s.email       = ["myokoym@gmail.com"]
   s.homepage    = "https://github.com/myokoym/middleman-github_api"
-  s.summary     = %q{A Middleman extension for GitHub API.}
+  s.summary     = %q{A Middleman extension for GitHub API as Data Files.}
   s.description = s.summary
   s.license     = "MIT"
 

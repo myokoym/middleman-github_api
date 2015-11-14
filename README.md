@@ -2,7 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/middleman-github_api.svg)](http://badge.fury.io/rb/middleman-github_api)
 
-A [Middleman][] extension for GitHub API.
+A [Middleman][] extension for GitHub API as [Data Files](https://middlemanapp.com/advanced/data_files/).
 
 [Middleman]: https://middlemanapp.com/
 
