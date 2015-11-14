@@ -1,6 +1,6 @@
 module Middleman::GithubApi
   class Extension < ::Middleman::Extension
-    option :my_option, 'default', 'An example option'
+    option :repo, nil, 'target repository'
 
     def initialize(app, options_hash={}, &block)
       # Call super to build options from the options_hash

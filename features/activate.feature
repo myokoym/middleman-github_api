@@ -4,7 +4,7 @@ Feature: middleman-github_api is activated
     Given a fixture app "empty-app"
     And a file named "config.rb" with:
       """
-      activate :github_api
+      activate :github_api, repo: "myokoym/middleman-github_api"
       """
     When I run `middleman build --verbose`
     Then the exit status should be 0
@@ -15,6 +15,7 @@ Feature: middleman-github_api is activated
     And a file named "config.rb" with:
       """
       activate :github_api do |github_api|
+        github_api.repo = "myokoym/middleman-github_api"
       end
       """
     When I run `middleman build --verbose`
