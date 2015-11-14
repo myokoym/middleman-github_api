@@ -43,3 +43,7 @@ source:
   <% end %>
 <% end %>
 ```
+
+## Example
+
+https://github.com/myokoym/middleman-github_api-example
