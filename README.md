@@ -1,5 +1,7 @@
 # Middleman::GithubApi
 
+[![Gem Version](https://badge.fury.io/rb/middleman-github_api.svg)](http://badge.fury.io/rb/middleman-github_api)
+
 A [Middleman][] extension for GitHub API.
 
 [Middleman]: https://middlemanapp.com/
