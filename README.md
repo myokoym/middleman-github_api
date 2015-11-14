@@ -1,6 +1,8 @@
 # Middleman::GithubApi
 
-A Middleman extension for GitHub API.
+A [Middleman][] extension for GitHub API.
+
+[Middleman]: https://middlemanapp.com/
 
 ## Installation
 
