@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   # s.homepage    = "http://example.com"
   # s.summary     = %q{A short summary of your extension}
   # s.description = %q{A longer description of your extension}
+  s.license     = "MIT"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
