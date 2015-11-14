@@ -5,6 +5,12 @@ module Middleman::GithubApi
     def initialize(app, options_hash={}, &block)
       # Call super to build options from the options_hash
       super
+      @app = app.inst
+      repository = options_hash[:repo]
+      hash = {
+        repository: repository,
+      }
+      @app.data.store(:github_api, hash)
 
       # Require libraries only when activated
       # require 'necessary/library'
